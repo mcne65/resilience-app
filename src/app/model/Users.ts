@@ -70,7 +70,7 @@ class Users {
   singleUserMatch(user: User, text: string): boolean {
     if (text === undefined) return false;
     text = text.toLowerCase();
-    if (("" + user.phone).indexOf(text) != -1) return true;
+    if (("" + user.phoneNumber).indexOf(text) != -1) return true;
     if (("" + user.displayName).toLowerCase().indexOf(text) != -1) return true;
     return false;
   }

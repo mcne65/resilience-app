@@ -8,6 +8,7 @@ import MissionsCreated from "./MissionsCreated";
 import MissionsVolunteered from "./MissionsVolunteered";
 import MissionDetails from "./MissionDetails";
 import PostMission from "./PostMission";
+import TypeAheadDemo from "./TypeAheadDemo";
 
 import Signup from "./Signup";
 import UserProfile from "./UserProfile";
@@ -25,4 +26,5 @@ export {
   UserProfile,
   MakeMission,
   PostMission,
+  TypeAheadDemo,
 };

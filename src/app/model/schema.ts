@@ -48,7 +48,7 @@ export class User {
   FIXME: need to ensure this is synced from firebase.auth ph number
   FIXME: where do we assert phone number formatting?
   FIXME: currently, always null */
-  phone?: number;
+  phoneNumber?: number;
   /* user's selected profile image url
   FIXME: need to sync this with state.firebase.profile.photoURL ?
   */

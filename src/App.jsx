@@ -25,6 +25,7 @@ import {
   MissionsVolunteered,
   MakeMission,
   PostMission,
+  TypeAheadDemo,
 } from "./app/page";
 
 import { Dashboard } from "./app/page";
@@ -71,6 +72,7 @@ function App() {
                 <Route path="/organizer/signup" component={OrganizerSignupPage} />
                 <Route path="/status" component={Status} />
                 <Route path="/temp/story123" component={PostMission} />
+                <Route path="/temp/story115" component={TypeAheadDemo} />
 
                 <Route path="/signup" component={SignupScene} />
 
